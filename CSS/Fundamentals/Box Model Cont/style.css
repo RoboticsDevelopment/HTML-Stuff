@@ -1,0 +1,14 @@
+.box{
+    width: 500px;
+    height: auto;
+    margin: 25px;
+    padding: 15px;
+    background-color: teal;
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+    color: white;
+    line-height: 2em;
+    border: 10px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px black;
+}

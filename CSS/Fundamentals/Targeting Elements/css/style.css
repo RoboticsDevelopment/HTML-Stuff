@@ -11,3 +11,8 @@
 div#box > .simple-text{
     color: teal;
 }
+
+div#box > p > span{
+    font-weight: bold;
+    color: black;
+}
