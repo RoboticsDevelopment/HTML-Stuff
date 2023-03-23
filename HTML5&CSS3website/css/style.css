@@ -171,3 +171,19 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.footer-box address {
+    color: teal;
+}
+
+.copyright{
+    text-align: center;
+    font-size: large;
+    padding: 15px;
+    background-color: crimson;
+    color: white;
+}
+
+.content img{
+    max-width: 100%;
+}
