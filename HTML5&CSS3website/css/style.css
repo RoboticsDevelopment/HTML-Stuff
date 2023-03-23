@@ -90,13 +90,84 @@ body {
 }
 
 /* content-holder */
-.content-holder{
+.content-holder {
     background-color: royalblue;
 }
 
-.content{
+.content {
     width: 700px;
     height: auto;
     padding: 25px;
     background-color: white;
+    float: left;
+}
+
+.content h1 {
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.content p {
+    font-family: cursive;
+    font-size: medium;
+
+}
+
+.sidebar {
+
+    float: left;
+    padding: 25px;
+
+
+}
+
+.sidebar h3 {
+    font-family: sans-cursive;
+    color: white;
+}
+
+.sidebar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+.sidebar ul>li>a {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.main-footer {
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+
+}
+
+.footer-box {
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: cursive;
+}
+
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
 }
