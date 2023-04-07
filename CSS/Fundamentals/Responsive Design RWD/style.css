@@ -1,0 +1,13 @@
+.box{
+    max-width: 1000px;
+    height: auto;
+    background-color: teal;
+    padding: 25px;
+    margin: auto;
+}
+@media(max-width: 500px)
+{
+    .box{
+        background-color: orange;
+    }
+}

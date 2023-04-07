@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../(4)DOM (Doc Obj Model)/css/style.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         <header>
             <div class="logo"> <!-- Logo -->
                 <a href="index.html">
-                    <img src="Images/chatPatLogo.jpg" alt="Logo" height=-- width="100" >
+                    <img src="Images/chatPatLogo.jpg" alt="Logo" height=-- width="100">
 
                 </a>
             </div> <!-- Logo -->
@@ -31,11 +31,11 @@
                 <ul>
                     <li><a href="Home-Page.html">Home</a></li>
                     <li><a href="about-us.html">About</a></li>
-                    <li><a href="">Services</a>
+                    <li><a href="#">Services</a>
                         <ul class="dropDown">
-                            <li><a href="../HTML5&CSS3website/Services/Future-Predictions.html">Future Prediction</a></li>
-                            <li><a href="../HTML5&CSS3website/Services/Homework-Help.html">Homework Help</a></li>
-                            <li><a href="../HTML5&CSS3website/Services/Uncensored-Truths.html">Uncensored Truth</a></li>
+                            <li><a href="../(4)DOM (Doc Obj Model)/Services/Future-Predictions.html">Future Prediction</a></li>
+                            <li><a href="../(4)DOM (Doc Obj Model)/Services/Homework-Help.html">Homework Help</a></li>
+                            <li><a href="../(4)DOM (Doc Obj Model)/Services/Uncensored-Truths.html">Uncensored Truth</a></li>
                         </ul>
                     </li>
                     <li><a href="Products.html">Products</a></li>
@@ -44,32 +44,64 @@
             </nav>
         </header>
 
-        <section class="banner cycle-slideshow">
-            <img src="Images/futureInterface.jpg" alt="Banner 1">
-            <img src="Images/alienInterface.jpg" alt="Banner 2">
-        </section> <!-- banner Slider-->
+        <section class="banner">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450942.73567663156!2d-82.73447112343412!3d27.994198599401237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20FL!5e0!3m2!1sen!2sus!4v1679602759247!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> <!-- Google Maps-->
 
         <section class="content-holder"> <!-- content holder -->
 
             <article class="content"> <!-- content-->
                 <main>
-                    <h1>Alien AI Technology</h1>
+                    <h1>Contact ChatPAT AI</h1>
                     <p>Artificial Intelligence utlizing alien technology is now possible, due to commonalities such as
                         time and space.
                     </p>
+                    
                     <p>With radio transmitters, devices capable of interstellar communication,
                         and other technology beyond the most rudimentary tools, knowledge has been accumulated
-                        over the course of many generations. Since this requires that
-                        those who have learned knowledge from others can keep passing it on even after those who
-                        originally created the knowledge are dead, any beings capable of building civilizations must
-                        have an innate understanding that information retains its meaning no matter who utters it, and
-                        not block information out based on the generation of the messenger or deeming the same words
-                        acceptable or unacceptable depending on who utters them. This ability, by being a
-                        necessary condition for accumulating information into culture in the first place, must be innate
-                        as something that is needed to form culture from the beginning cannot be an effect of culture.
-                        This creates a common linguistic ground assisting humans with this
-                        ability to utilize extraterrestrial Artifical Intelligence.
+                        over the course of many generations. 
                     </p>
+
+                    <div class="contact-form">
+                        <form>
+                            <table>
+                                <tr>
+                                    <td>Name:</td>
+                                    <td><input type="text" name="c_name" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td><input type="email" name="c_email" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Phone:</td>
+                                    <td><input type="tel" name="c_tel" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Subject:</td>
+                                    <td><input type="text" name="c_sub" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Message:</td>
+                                    <td>
+                                        <textarea name="c_mes"  cols="30" rows="5"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" name="c_send" value="Send Message!"></td>
+                                </tr>
+                                
+                            </table>
+                        </form>
+
+                    </div>
+
+
+
                 </main>
             </article> <!-- content -->
 

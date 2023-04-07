@@ -10,15 +10,16 @@
 
 <body>
 
-    <form name = "myForm">
+    <form name = "myForm" onsubmit="runMe2(); return false">
         <table>
             <tr>
                 <td>Username:</td>
-                <td><input type="text" name="u_name" required></td>
+                <td><input type="text" name="u_name" oninput="runMe();"></td>
+                <td id="message"></td>
             </tr>
             <tr>
                 <td>Password:</td>
-                <td><input type="password" name="u_password" required></td>
+                <td><input type="password" name="u_pass" required></td>
             </tr>
             <tr>
                 <td></td>
@@ -26,6 +27,9 @@
             </tr>
         </table>
     </form>
+
+
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
